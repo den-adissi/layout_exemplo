@@ -1,0 +1,117 @@
+@font-face {
+	font-family: "Inter", sans-serif;
+	src: url(../fonts/Inter-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Inter", sans-serif;
+	src: url(../fonts/Inter-ExtraBold.ttf);
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Inter", sans-serif;
+	src: url(../fonts/Inter-Bold.ttf);
+	font-weight: 600;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	color: #646464;
+}
+
+.wrapper {
+	max-width: 1115px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 85px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-size: 45px;
+	color: #000;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+
+header nav li {
+	margin-left: 40px;
+	text-decoration: none;
+}
+
+header nav li a {
+	text-decoration: none;
+	color: #646464;
+}
+header nav li a:hover {
+	text-decoration: underline;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+main article.principal {
+	width: 65%;
+}
+
+main article.principal .imagem-main img {
+	max-width: 100%;
+}
+
+main article.principal .texto {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+main article.principal .texto h2,
+main article.principal .texto .paragrafo {
+	width: 48%;
+}
+
+main article.principal .texto h2 {
+	font-size: 40px;
+	color: #000;
+}
+
+main article.principal .paragrafo p {
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+
+main aside {
+	width: 31%;
+}
+
+.red-button {
+	appearance: none;
+	padding: 16px 25px;
+	background-color: #ee5f51;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 600;
+	border: none;
+	letter-spacing: 1px;
+}
